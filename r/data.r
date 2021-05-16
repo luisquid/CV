@@ -1,32 +1,22 @@
 projects <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
-    "Health Potion in Mental Health", "Twitch", 2020, "Mental Health Awareness", "Completed a Lean Six Sigma Green Belt project on the reception center medical screening process at San Quentin State Prison improving compliance from 2% and a baseline capability aggregate of 29.96% compliance to 84% during the transition phase of the project through application of the lean 6 methodologies and tools. Scope of project affects 6 total state prisons with 3 more to be positively impacted by state wide changes resulting from this project",
-    "Good Ugly Bunnies", "Twitch", 2019, "Mental Health Awareness", "Creation of a Universal Data Scrubbing tool sent statewide to take most department SQL Report Server exports and turn them into raw data sets for Excel Analytics for end user staff"
-)
-
-certifications <- tribble(
-    ~area, ~accomplishment, ~year, ~where, ~detail,
-    "Certified Lean Six Sigma Green Belt", NA, "", "", NA,
-    "Certified Lean Six Sigma White Belt", NA, "", "", NA,
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Excel - 112",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Word - 22",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Outlook - 21",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Power Point - 18",
-    "Microsoft Software", "Various Applications", "", "", "Share Point - 9",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Project - 6",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Access - 3",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Power BI - 3"
+    "Project Encore", "Twitch", 2021, "Twitch Integration App", "A twitch integrated app made with Unity that lets your viewers have more interaction with the stream.",
+    "Project Encore", "Twitch", 2021, "Twitch Integration App", "This app gives each viewer an avatar with access to a limited amount of animations and commands so they can roam through the virtual world.",
+    "Project Encore", "Twitch", 2021, "Twitch Integration App", "Currently in development with plans of adding games that could be played with the streamer, a reality show style of podcast scenario with predetermined avatars for hosts and guests, treasure hunts and alternate reality games for viewers.",
+    "Health Potion in Mental Health", "Twitch", 2020, "Mental Health Awareness", "Weekly podcast in which we invite a professional involved in a creative industry to talk about their experience with their mental health at their job.",
+    "Health Potion in Mental Health", "Twitch", 2020, "Mental Health Awareness", "The purpose of this podcast is to try and break the stigma of speaking about mental health in creative industries.",
+    "Good Ugly Bunnies", "luisquid", 2019, "Mental Health Awareness", "Art project in which there's a daily post with the purpose of encouraging and raising awareness about taking care of our mental health.",
+    "Good Ugly Bunnies", "luisquid", 2019, "Mental Health Awareness", "The posts are usually a hand drawn bunny accompanied by an encouraging phrase.",
+    "Good Ugly Bunnies", "luisquid", 2019, "Mental Health Awareness", "This project can be found in Twitter, Instagram and Facebook."
 )
 
 skills <- tribble(
     ~area, ~skills,
-    "Languages", "Spanish (Native), English (C1 Advanced), French (DELF A2)",
     "Programming Languages", "C#, C++, JavaScript",
-    "Markup Languages", "CSS, HTML, LaTeX, Markdown, RMarkdown, SASS, Groff/Troff",
-    "Data Interchange Formats", "CSV, JSON, XML, Feather",
+    "Game Engines", "Unity Engine, Unreal Engine",
     "Version Control", "GIT",
-    "Text Editors", "Discern Visual Developer, RStudio, SQL Server Management Studio, VIM, Visual Studio, Visual Studio Code",
-    "Microsoft Office", "Excel, Outlook, OneNote, PowerBI, PowerPoint, Visio, Word"
+    "Text Editors", "Visual Studio, Visual Studio Code",
+    "Languages", "Spanish (Native), English (C1 Advanced), French (DELF A2)"
 )
 
 honors <- tribble(
@@ -37,22 +27,37 @@ honors <- tribble(
 
 edu <- tribble(
     ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
-    "University of Advanced Technologies", 2014, 2018, "Bachelors Videogame Programming", "Guadalajara, Jal, MX","THIS IS A TEST",
+    "University of Advanced Technologies", 2014, 2018, "Bachelors Videogame Programming", "Guadalajara, Jal, MX","I worked on several school projects that involved the use of different technologies such as Unity and Unreal, graphic libraries like OpenGL, programming languages such as C++, Java, C#, and new technologies like AR and VR with Vuforia and Oculus VR.",
 )
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
     "Developer Support Engineer", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "My job is give support to premium console clients",
-    "Career Counselour", "UNIAT", "January", 2021, "March", 2021, "Sacramento - California", "LANGUAGES USED --- R, RMarkdown",
-    "Unity VR Developer", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "I developmed data collection, structuring, and reporting systems for various water rights databases",
-    "Unity Developer", "Sign Amy", "January", 2021, "March", 2021, "Sacramento - California", "I developed and utilized research methodologies and techniques in the area of data collection and analysis",
-    "Unity Developer", "Freelance", "October", 2019, "Present", NA, "Elk Grove - California", "LANGUAGES USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, SQL, CCL",
-    "Community Manager", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "Client side Cerner Millenium Database Administrator",
-    "Twitch Streamer", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "I design and disseminate statistical reports and visualizations written with R and RMarkdown",
+    "Twitch Streamer", "Twitch.tv/luisquid_", "May", 2020, "Present", NA, "Twitch.tv", "I stream about a variety of subjects such as game development, art creation, mental health awareness.",
+    "Twitch Streamer", "Twitch.tv/luisquid_", "May", 2020, "Present", NA, "Twitch.tv", "It started being a hobby but I have since then started taking it more seriously since it has helped me improve my game development skills",
+    "Unity Developer", "Freelance", "", 2016, "Present", NA, "Remote", "TGA Entertainment (August 2019 - March 2020) - Improving, modifying and adding features to existing Untiy developed games.",
+    "Unity Developer", "Freelance", "", 2016, "Present", NA, "Remote", "ABB (September 2019 - March 2020) - Develop VR apps for employee training at an electric plant made with Unity.",
+    "Unity Developer", "Freelance", "", 2016, "Present", NA, "Remote", "MiRA (September 2018 - December 2018) - Develop a mixed reality app in Unity for Monica Gomez's pHD thesis.",
+    "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Managed the studio's social media and community.",
+    "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Creation of graphic assets for social media and marketing.",
+    "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Engaging with community events related to the studio and the game development industry in Mexico.",
+    "Unity Developer", "Goetia 2", "March", 2020, "September", 2020, "Remote", "Gameplay and UI programmer.",
+    "Unity Developer", "Goetia 2", "March", 2020, "September", 2020, "Remote", "I was in charge of implementing game mechanics and UI functionality.",
+    "Unity Developer", "Ideas Extremas", "March", 2020, "May", 2020, "Remote", "Develop Virtual reality games for Mixed Reality Arenas made with Unity.",
+    "Game Developer", "Orange Planet", "September", 2019, "March", 2020, "Guadalajara, MX", "Developing software and games with the help of students.",
+    "Game Developer", "Orange Planet", "September", 2019, "March", 2020, "Guadalajara, MX", "The purpose of my position was to create and guide projects so that students could improve their abilites in game development.",
+    "Career Counselour", "UNIAT", "February", 2019, "February", 2020, "Guadalajara, MX.", "Overview and update current course plans",
+    "Career Counselour", "UNIAT", "February", 2019, "February", 2020, "Guadalajara, MX.", "Mediate and help find solutions between student/teacher conflicts.",
+    "Career Counselour", "UNIAT", "February", 2019, "February", 2020, "Guadalajara, MX.", "Organize events in benefit of the students such as game jams and videogame tournaments.",
+    "University Professor", "UNIAT", "August", 2018, "February", 2020, "Guadalajara, MX.", "Thesis Workshop (2019)",
+    "University Professor", "UNIAT", "August", 2018, "February", 2020, "Guadalajara, MX.", "Videogame Development Workshop I and II (2019)",
+    "University Professor", "UNIAT", "August", 2018, "February", 2020, "Guadalajara, MX.", "Videogame Industry (2018)",
+    "University Professor", "UNIAT", "August", 2018, "February", 2020, "Guadalajara, MX.", "Programming in Unity (2018,2019)",
+    "Unity Developer", "Sign Amy", "April", 2019, "August", 2019, "Guadalajara, MX", "I was in chard of developing and updating features for the SignAmy app.",
+    "Unity Developer", "Sign Amy", "April", 2019, "August", 2019, "Guadalajara, MX", "The purpose of this app is to help people learn sign language.",
+    "Unity Developer", "Sign Amy", "April", 2019, "August", 2019, "Guadalajara, MX", "The app was developed in Unity.",
+    "Unity VR Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "I was in charge of managing a team of 4 people that worked closely together with other areas.",
+    "Unity VR Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Development of soccer VR simulations with analytical purposes.",
+    "Unity VR Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Development of AR apps that were used during the 2018 World Cup by Univision.",
+    "Unity VR Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Azure API integration to the Unity Engine.",
     )
-
-works <- tribble(
-    ~area, ~accomplishment, ~year, ~where, ~detail,
-    "Runes", "Convert a string of text characters to Elder Futhark Runes ", "February 2020", "https://github.com/tallguyjenks/runes", "Author and Maintainer",
-    "Runes", "Convert a string of text characters to Elder Futhark Runes ", "February 2020", "https://github.com/tallguyjenks/runes", "Released to CRAN",
-)

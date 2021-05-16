@@ -4,14 +4,14 @@ surname: Bazan
 position: "Developer Support Engineer"
 address: "Unity Technologies"
 profilepic: "./img/me.jpg"
-www: "luisquid.dev"
+www: "luisquid.me"
 email: "luisquid.dev@gmail.com"
 github: luisquid
-linkedin: luisbazanbravo
-orcid: 0000-0002-9604-3069
+linkedin: luisbernardobazan
+orcid: +57 3145616821
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 00a9bf
-aboutme: "I'm a game developer with more than 3 years in experience using Unity. I am really passionate about making game that have a social impact.  I believe games can change the world."
+aboutme: "I'm a game developer with more than 3 years of experience using Unity. I am really passionate about making game that have a social impact.  I believe games can change the world."
 docname: CV
 output: vitae::awesomecv
 ---
@@ -67,7 +67,6 @@ edu %>%
 
 ```
 
-\pagebreak
 
 # Skills
 
@@ -101,38 +100,6 @@ honors %>%
 ```{r PROJECTS}
 
 projects %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
-  )
-
-```
-
-# Works
-
-```{r WORKS}
-
-works %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
-  )
-
-```
-
-\pagebreak
-
-# Certifications
-
-```{r CERTIFICATIONS}
-
-certifications %>%
   detailed_entries(
     with = area,
     what = accomplishment,
