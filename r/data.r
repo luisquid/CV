@@ -7,7 +7,7 @@ projects <- tribble(
     "Health Potion in Mental Health", "Twitch", 2020, "Mental Health Awareness", "The purpose of this podcast is to try and break the stigma of speaking about mental health in creative industries.",
     "Good Ugly Bunnies", "luisquid", 2019, "Mental Health Awareness", "Art project in which there's a daily post with the purpose of encouraging and raising awareness about taking care of our mental health.",
     "Good Ugly Bunnies", "luisquid", 2019, "Mental Health Awareness", "The posts are usually a hand drawn bunny accompanied by an encouraging phrase.",
-    "Good Ugly Bunnies", "luisquid", 2019, "Mental Health Awareness", "This project can be found in Twitter, Instagram and Facebook."
+    "Good Ugly Bunnies", "luisquid", 2019, "Mental Health Awareness", "This project can be found on Twitter, Instagram and Facebook."
 )
 
 skills <- tribble(
@@ -32,7 +32,9 @@ edu <- tribble(
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-    "Developer Support Engineer", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "My job is give support to premium console clients",
+    "Developer Support Engineer", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Investigate, research, debug, and tackle integration problems, interacting with customers and internal development engineers.",
+    "Developer Support Engineer", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Provide technical support and solutions for game devs. working with Unity on the Nintendo Switch, PS4, PS5, Xbox One and Xbox Series X.",
+    "Developer Support Engineer", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Mantain excellent communication between the technical suppor team and other departments within Unity.",
     "Twitch Streamer", "Twitch.tv/luisquid_", "May", 2020, "Present", NA, "Twitch.tv", "I stream about a variety of subjects such as game development, art creation, mental health awareness.",
     "Twitch Streamer", "Twitch.tv/luisquid_", "May", 2020, "Present", NA, "Twitch.tv", "It started being a hobby but I have since then started taking it more seriously since it has helped me improve my game development skills",
     "Unity Developer", "Freelance", "", 2016, "Present", NA, "Remote", "TGA Entertainment (August 2019 - March 2020) - Improving, modifying and adding features to existing Untiy developed games.",
