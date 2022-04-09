@@ -14,8 +14,7 @@ skills <- tribble(
     ~area, ~skills,
     "Programming Languages", "C#, C++, JavaScript",
     "Game Engines", "Unity Engine, Unreal Engine",
-    "Version Control", "GIT",
-    "Text Editors", "Visual Studio, Visual Studio Code",
+    "Version Control", "GIT, Plastic SCM",
     "Languages", "Spanish (Native), English (C1 Advanced), French (DELF A2)"
 )
 
@@ -32,12 +31,11 @@ edu <- tribble(
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Same job, cooler title.",
-    "Developer Support Engineer", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Investigate, research, debug, and tackle integration problems, interacting with customers and internal development engineers.",
-    "Developer Support Engineer", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Provide technical support and solutions for game devs. working with Unity on the Nintendo Switch, PS4, PS5, Xbox One and Xbox Series X.",
-    "Developer Support Engineer", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Mantain excellent communication between the technical suppor team and other departments within Unity.",
-    "Twitch Streamer", "Twitch.tv/luisquid_", "May", 2020, "Present", NA, "Twitch.tv", "I stream about a variety of subjects such as game development, art creation, mental health awareness.",
-    "Twitch Streamer", "Twitch.tv/luisquid_", "May", 2020, "Present", NA, "Twitch.tv", "It started being a hobby but I have since then started taking it more seriously since it has helped me improve my game development skills",
+    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Investigate, research, debug, and tackle integration problems, interacting with customers and internal development engineers.",
+    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Provide technical support and solutions for game devs. working with Unity on the Nintendo Switch, PS4, PS5, Xbox One and Xbox Series X.",
+    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Mantain excellent communication between the technical suppor team and other departments within Unity.",
+    "Twitch Streamer", "Twitch.tv/luisquidTV", "May", 2020, "Present", NA, "Twitch.tv", "I stream about a variety of subjects such as game development, art creation, mental health awareness.",
+    "Twitch Streamer", "Twitch.tv/luisquidTV", "May", 2020, "Present", NA, "Twitch.tv", "It started being a hobby but I have since then started taking it more seriously since it has helped me improve my game development skills",
     "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Managed the studio's social media and community.",
     "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Creation of graphic assets for social media and marketing.",
     "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Engaging with community events related to the studio and the game development industry in Mexico.",
@@ -53,7 +51,7 @@ work <- tribble(
     "University Professor", "UNIAT", "August", 2018, "February", 2020, "Guadalajara, MX.", "Videogame Development Workshop I and II (2019)",
     "University Professor", "UNIAT", "August", 2018, "February", 2020, "Guadalajara, MX.", "Videogame Industry (2018)",
     "University Professor", "UNIAT", "August", 2018, "February", 2020, "Guadalajara, MX.", "Programming in Unity (2018,2019)",
-    "Unity Developer", "Sign Amy", "April", 2019, "August", 2019, "Guadalajara, MX", "I was in chard of developing and updating features for the SignAmy app.",
+    "Unity Developer", "Sign Amy", "April", 2019, "August", 2019, "Guadalajara, MX", "I was in charge of developing and updating features for the SignAmy app.",
     "Unity Developer", "Sign Amy", "April", 2019, "August", 2019, "Guadalajara, MX", "The purpose of this app is to help people learn sign language.",
     "Unity Developer", "Sign Amy", "April", 2019, "August", 2019, "Guadalajara, MX", "The app was developed in Unity.",
     "Unity Lead Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "I was in charge of managing a team of 4 people that worked closely together with other areas.",
