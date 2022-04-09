@@ -32,14 +32,12 @@ edu <- tribble(
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Same job, cooler title.",
     "Developer Support Engineer", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Investigate, research, debug, and tackle integration problems, interacting with customers and internal development engineers.",
     "Developer Support Engineer", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Provide technical support and solutions for game devs. working with Unity on the Nintendo Switch, PS4, PS5, Xbox One and Xbox Series X.",
     "Developer Support Engineer", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Mantain excellent communication between the technical suppor team and other departments within Unity.",
     "Twitch Streamer", "Twitch.tv/luisquid_", "May", 2020, "Present", NA, "Twitch.tv", "I stream about a variety of subjects such as game development, art creation, mental health awareness.",
     "Twitch Streamer", "Twitch.tv/luisquid_", "May", 2020, "Present", NA, "Twitch.tv", "It started being a hobby but I have since then started taking it more seriously since it has helped me improve my game development skills",
-    "Unity Developer", "Freelance", "", 2016, "Present", NA, "Remote", "TGA Entertainment (August 2019 - March 2020) - Improving, modifying and adding features to existing Untiy developed games.",
-    "Unity Developer", "Freelance", "", 2016, "Present", NA, "Remote", "ABB (September 2019 - March 2020) - Develop VR apps for employee training at an electric plant made with Unity.",
-    "Unity Developer", "Freelance", "", 2016, "Present", NA, "Remote", "MiRA (September 2018 - December 2018) - Develop a mixed reality app in Unity for Monica Gomez's pHD thesis.",
     "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Managed the studio's social media and community.",
     "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Creation of graphic assets for social media and marketing.",
     "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Engaging with community events related to the studio and the game development industry in Mexico.",
@@ -58,8 +56,8 @@ work <- tribble(
     "Unity Developer", "Sign Amy", "April", 2019, "August", 2019, "Guadalajara, MX", "I was in chard of developing and updating features for the SignAmy app.",
     "Unity Developer", "Sign Amy", "April", 2019, "August", 2019, "Guadalajara, MX", "The purpose of this app is to help people learn sign language.",
     "Unity Developer", "Sign Amy", "April", 2019, "August", 2019, "Guadalajara, MX", "The app was developed in Unity.",
-    "Unity VR Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "I was in charge of managing a team of 4 people that worked closely together with other areas.",
-    "Unity VR Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Development of soccer VR simulations with analytical purposes.",
-    "Unity VR Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Development of AR apps that were used during the 2018 World Cup by Univision.",
-    "Unity VR Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Azure API integration to the Unity Engine.",
+    "Unity Lead Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "I was in charge of managing a team of 4 people that worked closely together with other areas.",
+    "Unity Lead Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Development of soccer VR simulations with analytical purposes.",
+    "Unity Lead Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Development of AR apps that were used during the 2018 World Cup by Univision.",
+    "Unity Lead Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Azure API integration to the Unity Engine.",
     )

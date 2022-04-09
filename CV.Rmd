@@ -1,17 +1,16 @@
 ---
 name: Luis
 surname: Bazan
-position: "Developer Support Engineer"
+position: "Software Engineer, Consoles Support"
 address: "Unity Technologies"
 profilepic: "./img/me.jpg"
 www: "luisquid.me"
 email: "luisquid.dev@gmail.com"
 github: luisquid
 linkedin: luisbernardobazan
-orcid: +57 3145616821
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 00a9bf
-aboutme: "I'm a game developer with more than 3 years of experience using Unity. I am really passionate about making game that have a social impact.  I believe games can change the world."
+aboutme: "I'm a game developer with more than 4 years of experience using Unity. I am really passionate about making game that have a social impact. I believe games can change the world."
 docname: CV
 output: vitae::awesomecv
 ---
