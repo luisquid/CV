@@ -96,11 +96,11 @@ edu %>%
 
 
 
-# Honors
+# Awards
 
-```{r HONORS}
+```{r AWARDS}
 
-honors %>%
+awards %>%
   detailed_entries(
     with = area,
     what = accomplishment,

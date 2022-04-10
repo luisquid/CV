@@ -15,7 +15,7 @@ skills <- tribble(
     "Microsoft Office", "Excel, Outlook, OneNote, PowerBI, PowerPoint, Visio, Word"
 )
 
-honors <- tribble(
+awards <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
     "Create Challenge Unity 2019", "Award to best developer and programmer in the event", 2019, "Guadalajara, MX",NA,
     "WFS 2017 BEst Industry Supplier", "Award to our Virtual Reality system for football analysis", 2017, "Madrid, SPA",NA
