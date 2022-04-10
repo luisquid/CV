@@ -10,7 +10,7 @@ github: luisquid
 linkedin: luisbernardobazan
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 00a9bf
-aboutme: "I'm a game developer with more than 4 years of experience using Unity. I am really passionate about making game that have a social impact. I believe games can change the world."
+aboutme: "I'm a game developer with more than 4 years of experience using Unity. I am really passionate about making games that have a social impact. I believe games can change the world."
 docname: CV
 output: vitae::awesomecv
 ---
