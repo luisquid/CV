@@ -10,7 +10,7 @@ github: luisquid
 linkedin: luisbernardobazan
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 00a9bf
-aboutme: "I'm a game developer with more than 4 years of experience using Unity. I am really passionate about making games that have a social impact. I believe games can change the world."
+aboutme: "I'm a game developer with 5 years of experience in the industry in different roles. I am really passionate about making games that have a social impact. I believe games can change the world."
 docname: CV
 output: vitae::awesomecv
 ---
@@ -36,6 +36,18 @@ source(file = here("r","data.r"))
 
 ```
 
+# Skills
+
+```{r SKILLS}
+
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+
+```
+
 # Employment
 
 ```{r EMPLOYMENT}
@@ -47,33 +59,6 @@ work %>%
     why = detail,
     when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
     where = where
-  )
-
-```
-
-# Projects
-
-```{r PROJECTS}
-
-projects %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
-  )
-
-```
-
-# Skills
-
-```{r SKILLS}
-
-skills %>%
-  detailed_entries(
-    with = area,
-    what = skills
   )
 
 ```
@@ -93,7 +78,20 @@ edu %>%
 
 ```
 
+# Projects
 
+```{r PROJECTS}
+
+projects %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+
+```
 
 
 # Awards
