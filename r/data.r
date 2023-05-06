@@ -13,15 +13,15 @@ projects <- tribble(
 skills <- tribble(
     ~area, ~skills,
     "Programming Languages", "C#, C++, JavaScript",
-    "Game Engines", "Unity Engine, Unreal Engine",
-    "Version Control", "GIT, Plastic SCM",
+    "Game Engines", "Unity (Advanced), Unreal (Intermediate), Godot (Beginner)",
+    "Version Control", "Git (Advanced), Plastic SCM (Beginner)",
     "Languages", "Spanish (Native), English (C1 Advanced), French (DELF A2)"
 )
 
 awards <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
     "Create Challenge Unity 2019", "Award to best developer and programmer in the event", 2019, "Guadalajara, MX",NA,
-    "WFS 2017 BEst Industry Supplier", "Award to our Virtual Reality system for football analysis", 2017, "Madrid, SPA",NA
+    "WFS 2017 Best Industry Supplier", "Award to our Virtual Reality system for football analysis", 2017, "Madrid, SPA",NA
 )
 
 edu <- tribble(
@@ -31,21 +31,18 @@ edu <- tribble(
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Investigate, research, debug, and tackle integration problems, interacting with customers and internal development engineers.",
-    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Provide technical support and solutions for game devs. working with Unity on the Nintendo Switch, PS4, PS5, Xbox One and Xbox Series X.",
-    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "Present", NA, "Pereira, COL", "Mantain excellent communication between the technical suppor team and other departments within Unity.",
-    "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Managed the studio's social media and community.",
-    "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Creation of graphic assets for social media and marketing.",
-    "Community Manager", "Mecha Studios", "September", 2020, "March", 2021, "Remote", "Engaging with community events related to the studio and the game development industry in Mexico.",
+    "Lead, Software Engineer, Engine Support", "Unity Technologies", "January", 2023, "Present", NA, "Pereira, COL", "Lead Engineer in the Starter Success Technical Support Team",
+    "Lead, Software Engineer, Engine Support", "Unity Technologies", "January", 2023, "Present", NA, "Pereira, COL", "Tier of support focused on smaller studios and indie developers.",
+    "Lead, Software Engineer, Engine Support", "Unity Technologies", "January", 2023, "Present", NA, "Pereira, COL", "Gave support to more than 30 Starter Success developers using Unity in different areas. (Games, Simulation, Automobile, etc)",
+    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "March", 2023, "Pereira, COL", "Investigate, debug, and tackle integration problems, interacting with customers and with the development team.",
+    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "March", 2023, "Pereira, COL", "Provide technical support and solutions for game devs. working with Unity on Consoles Platforms",
+    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "March", 2023, "Pereira, COL", "Mantain excellent communication between the technical support team and other departments within Unity.",
+    "Software Engineer, Consoles Support", "Unity Technologies", "March", 2021, "March", 2023, "Pereira, COL", "Gave support to games such as Convergence, Ruined King, Subnautica Below Zero, Advance Wars 1+2, Goodbye Volcano High, Wasteland 3, Fallguys, among others.",
     "Unity Developer", "Freelance", "April", 2019, "September", 2020, "Remote", "Gameplay and UI programmer for Goetia 2. (Mar - Sept 2020)",
-    "Unity Developer", "Freelance", "April", 2019, "September", 2020, "Remote", "Develop Virtual reality games for Mixed Reality Arenas made with Unity for Ideas Extremas. (Mar - May 2020)",
     "Unity Developer", "Freelance", "April", 2019, "September", 2020, "Remote", "I was in charge of developing and updating features for the SignAmy app. (Apr - Aug 2019)",
-    "Career Counselor and Professor", "UNIAT", "February", 2019, "February", 2020, "Guadalajara, MX.", "Overview and update current course plans",
-    "Career Counselor and Professor", "UNIAT", "February", 2019, "February", 2020, "Guadalajara, MX.", "Mediate and help find solutions between student/teacher conflicts.",
-    "Career Counselor and Professor", "UNIAT", "February", 2019, "February", 2020, "Guadalajara, MX.", "Organize events in benefit of the students such as game jams and videogame tournaments.",
-    "Career Counselor and Professor", "UNIAT", "February", 2019, "February", 2020, "Guadalajara, MX.", "Taugth the following courses: Videogame Development Workshop I and II (2019), Programming in Unity (2018,2019)",
-    "Lead Unity Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "I was in charge of managing a team of 4 people that worked closely together with other areas.",
-    "Lead Unity Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Development of soccer VR simulations with analytical purposes.",
-    "Lead Unity Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Development of AR apps that were used during the 2018 World Cup by Univision.",
-    "Lead Unity Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Azure API integration to the Unity Engine.",
-    )
+    "Lead Unity Developer", "GolStats", "October", 2017, "May", 2019, "Guadalajara, MX.", "I was in charge of managing a team of 4 people that worked closely together with other development areas.",
+    "Lead Unity Developer", "GolStats", "October", 2017, "May", 2019, "Guadalajara, MX.", "My role also involved planning the workload and weekyl iteration for the software features we developed.",
+    "Unity Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Development of soccer VR simulations with analytical purposes.",
+    "Unity Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Development of AR apps that were used during the 2018 World Cup by Univision.",
+    "Unity Developer", "GolStats", "October", 2016, "May", 2019, "Guadalajara, MX.", "Azure API integration to the Unity Engine.",
+)
